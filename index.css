@@ -1,0 +1,214 @@
+nav a,
+.box-container a {
+    text-decoration: none;
+}
+
+
+.rob-nav.active {
+    background-color: rgb(197, 173, 125) !important;
+    color: white;
+}
+
+.rob-nav {
+    background: 0 0;
+    border: 0;
+    border-radius: 0.25rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+h6 {
+    text-align: center;
+    color: black;
+}
+
+.hero-img {
+    height: 500px !important;
+    object-fit: cover;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 297px;
+    height: 58px;
+    object-fit: cover;
+}
+
+.rob-nav {
+    color: black;
+}
+
+.rob-nav:focus,
+.rob-nav:hover {
+    color: rgb(197, 173, 125);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+
+#razor {
+    font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+    font-size: 40px;
+    color: rgb(117, 117, 117);
+    text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+    line-height: 1.8em;
+}
+
+.line {
+    border-top: 3px solid black;
+    height: 2px;
+    width: 15%;
+}
+
+.boxes {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1:hover,
+#box2:hover,
+#box3:hover,
+#box4:hover,
+#box5:hover {
+    /* background-color: rgb(197, 173, 125); */
+    transform: scale(1.1);
+}
+
+#box1 {
+    background-color: rgb(240, 240, 240);
+    transition: all .2s ease-in-out;
+}
+
+#box2 {
+    background-color: rgb(220, 220, 220);
+    transition: all .2s ease-in-out;
+}
+
+#box3 {
+    background-color: rgb(200, 200, 200);
+    transition: all .2s ease-in-out;
+}
+
+#box4 {
+    background-color: rgb(110, 110, 110);
+    transition: all .2s ease-in-out;
+}
+
+#box5 {
+    background-color: rgb(75, 75, 75);
+    transition: all .2s ease-in-out;
+}
+
+#break {
+    background-image: url('./assets/images/home/break-edit.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+#break h2 {
+    font-size: 45px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#break p {
+    width: 75%;
+    text-align: center;
+    font-size: 26px;
+}
+
+#break a {
+    font-size: 26px;
+    width: 72%;
+}
+
+.card-img-top {
+    height: 223px;
+}
+
+#img-vid-container {
+    background-color: rgb(250, 250, 250);
+    padding: 5%;
+}
+
+#testimonial-carousel-inner {
+    height: 400px;
+}
+
+#testimonial-carousel-inner span {
+    font-style: italic;
+}
+
+.carousel-inner span {
+    font-size: 27px;
+    line-height: 2.1em;
+}
+
+.testimonials {
+    width: 45%;
+}
+
+.test-logo {
+    height: 100px !important;
+}
+
+#bottom-logos {
+    width: 75%;
+    margin: auto;
+}
+
+#bottom-logos img {
+    height: 175px;
+    object-fit: contain;
+}
+
+footer {
+    background-color: rgb(33, 29, 29);
+    color: white;
+    line-height: 35px;
+}
+
+footer img {
+    height: 100px;
+    object-fit: scale-down;
+    margin-top: 50px;
+}
+
+.footer-item {
+    width: 300px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    position: relative;
+    right: 150px;
+    padding-bottom: 10px;
+}
