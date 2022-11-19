@@ -17,6 +17,15 @@ nav a,
     padding: 0.5rem 1rem;
     text-decoration: none;
     list-style: none;
+    color: black;
+}
+
+.rob-nav:hover {
+    color: rgb(197, 173, 125);
+}
+
+.rob-nav.active:hover {
+    color: white;
 }
 
 h6 {
@@ -48,14 +57,7 @@ h6 {
     object-fit: cover;
 }
 
-.rob-nav {
-    color: black;
-}
 
-.rob-nav:focus,
-.rob-nav:hover {
-    color: rgb(197, 173, 125);
-}
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7);
@@ -190,25 +192,27 @@ h6 {
 footer {
     background-color: rgb(33, 29, 29);
     color: white;
-    line-height: 35px;
+    font-size: small;
 }
 
 footer img {
     height: 100px;
     object-fit: scale-down;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .footer-item {
-    width: 300px;
+    width: 325px;
     text-align: center;
 }
 
 footer a {
     text-decoration: none;
     color: white;
-    text-align: right;
-    position: relative;
-    right: 150px;
-    padding-bottom: 10px;
+}
+
+.gmap_canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
