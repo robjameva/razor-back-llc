@@ -7,8 +7,27 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/account
+          emailjs.init('sDw0xHjMkbPpMuWlt');
+      })();
+  </script>
+
+   <!-- My Links -->
+   <link rel="stylesheet" href="./assets/styles/index.css">
+   <link rel="stylesheet" href="./assets/styles/contact.css">
+   <script src="./mail.js"></script>
+   
     <title>Industrial Construction | Razorback Llc</title>
   </head>
   <header>
@@ -42,8 +61,54 @@
     </nav>
   </header>
   <body>
-    <h2>Contact</h2>
-    <h6>coming soon!</h6>
+    <div id="heading">
+      <h3>Contact Us</h3>
+      <h2>For Inquiries or Questions</h2>
+      <p>Please use this form or call us at 727.938.9500</p>
+    </div>
+    
+    <div class="d-flex justify-content-around align-items-center">
+      <!-- form -->
+      <form id="contact-form">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex flex-column">
+              <label for="fname">First name</label>
+              <input type="text" id="fname" name="fname" required><br>
+            </div>
+
+            <div class="d-flex flex-column">
+              <label for="lname">Last name</label>
+              <input type="text" id="lname" name="lname" required><br>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <div class="d-flex flex-column">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required><br>
+            </div>
+    
+            <div class="d-flex flex-column">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required><br>
+            </div>
+          </div>
+        </div>
+        
+        <div class="d-flex flex-column">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        </div>
+
+        <input type="submit" value="Send">
+      </form>
+      <!-- Map -->
+      <div id="contact-img-container">
+        <img id="lighthosue" src="./assets/images/contact/iStock-498475937 (1).jpg" alt="" height="604px">
+      </div>
+    </div>
+
     
   </body>
 </html>
